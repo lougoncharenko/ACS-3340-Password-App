@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import {useDispatch} from "react-redux";
-import {addPassword} from "../redux/slices/passwordSlice";
+import {addPassword} from "../../redux/slices/passwordSlice";
 import PasswordStrengthIndicator from "./PasswordStrengthIndicator";
 
 function Password() {
